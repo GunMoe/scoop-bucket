@@ -10,6 +10,9 @@
             "Foxmail"
         ]
     ],
+    "persist": [
+        "Storage"
+    ],
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
     ]
